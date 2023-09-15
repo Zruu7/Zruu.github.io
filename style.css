@@ -4,10 +4,12 @@
     padding: 0px;
 }
 
-body{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Open Sans',sans-serif;
+.logo a{
+    font-size: 50px;
+    font-weight: 800;
+    float: left;
+    font-family: courier;
+    color: #FE0000;
 }
 
 .wrapper{
@@ -21,17 +23,9 @@ body{
     width: 500px;
 }
 
-.logo a{
-    font-size: 50px;
-    font-weight: 800;
-    float: left;
-    font-family: Verdana;
-    text-transform: uppercase;
-    color: #FE0000;
-}
-
-.menu{
-    float: right;
+body{
+    
+    font-family: 'Open Sans',sans-serif;
 }
 
 nav{
@@ -44,6 +38,10 @@ nav{
     top: 0;
     background: #FFFFFF;
     z-index: 1;
+}
+
+.menu{
+    float: right;
 }
 
 nav ul{
@@ -70,66 +68,23 @@ nav ul li a:hover{
     text-decoration: underline;
 }
 
-section{
-    margin: auto;
-    display: flex;
-    margin-bottom: 50px;
-}
-
-.kolom{
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.kolom .deskripsi{
-    font-size: 20px;
-    font-weight: bold;
-    font-family: 'comic sans-ms';
-    color: #7EAA92;
-}
-
-h2{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-weight: 800;
-    font-size: 45px;
-    margin-bottom: 20px;
-    color: #7EAA92;
-    width: 100%;
-    line-height: 50px;
+.video{
+    float: left;
+    margin: 100px;
+    width: 100px;
 }
 
 a.tbl-biru{
-    background: blue;
+    background: red;
     border-radius: 20px;
     margin-top: 20px;
     padding: 15px 20px 15px 20px;
-    color: #FFFFFF;
+    color: black;
     cursor: pointer;
     font-weight: bold;
 }
 
 a.tbl-biru:hover{
-    background: #B4B4B3;
+    background:#B4B4B3;
     text-decoration: none;
-}
-
-a.tbl-pink{ 
-    background: #B4B4B3;
-    border-radius: 20px;
-    margin-top: 20px;
-    padding: 15px 20px 15px 20px;
-    color: #FFFFFF;
-    cursor: pointer;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-a.tbl-pink:hover{
-    background: red;
-    text-decoration: none;
-}
-
-p{
-    margin: 10px 0px 10px 0px;
-    padding: 10px 0px 10px 0px;
 }
